@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&family=Roboto:wght@500&display=swap');
+
+.con2{
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    width: 100%;
+    height: 500px;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* opacity: 0; */
+}
+.con2 h1,.con2 h2,.con2 h3{
+    color: #dceede;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: baseline; */
+    text-align: center;
+    width: 100%;
+    height: 70px;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    -webkit-box-reflect: below  -70px linear-gradient(transparent,rgb(255, 255, 255));
+    /* text-transform: uppercase; */
+    /* opacity: 1; */
+    /* letter-spacing: 5px; */
+}
+.text span{
+    display: inline-block;
+    position: relative;
+}
